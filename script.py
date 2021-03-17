@@ -14,7 +14,7 @@ def multi_threaded_client(connection):
 
 ServerSideSocket = socket.socket()
 host = '127.0.0.1'
-port = 2004
+port = 80
 ThreadCount = 0
 try:
     ServerSideSocket.bind((host, port))
